@@ -1,0 +1,5 @@
+[17-Jul-2017 23:07:00 Brazil/East] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY cidade ASC' at line 1' in /home/dssmart/hospedagem.dssmart.com.br/page/PedidoEspecialHospedagem.php:111
+Stack trace:
+#0 /home/dssmart/hospedagem.dssmart.com.br/page/PedidoEspecialHospedagem.php(111): PDO->query('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dssmart/hospedagem.dssmart.com.br/page/PedidoEspecialHospedagem.php on line 111

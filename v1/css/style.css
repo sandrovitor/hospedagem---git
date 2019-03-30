@@ -1,0 +1,134 @@
+/* 
+ * MODIFICADOR DO BOOTSTRAP 
+ *
+ * https://work.smarchal.com/twbscolor/?bd=e74c3c&bh=c0392b&cd=ecf0f1&ch=ffbbbc
+ *
+ */
+ 
+.navbar-default {
+  background-color: #e48515;
+  border-color: #b46b14;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff6c9;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff6c9;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff6c9;
+  background-color: #b46b14;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff6c9;
+  background-color: #b46b14;
+}
+.navbar-default .navbar-toggle {
+  border-color: #b46b14;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #b46b14;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #fff6c9;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff6c9;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff6c9;
+    background-color: #b46b14;
+  }
+}
+
+/* FIM DO MODIFICADOR DO BOOTSTRAP */
+
+body {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+a {
+	cursor: pointer;
+}
+
+.red {
+	color:#f00;
+}
+.botao_topo {
+	position:fixed;
+	bottom: 60px;
+	right: 10px;
+	z-index: 2500;
+	opacity: 0.60;
+}
+
+
+
+/* PERSONALIZAÇÂO DO FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 55px;
+  background-color: #e4a151;
+  border-top: 3px solid #d28c3a;
+}
+.footer-links {
+	padding-bottom: 5px;
+}
+.footer-links img, .footer-links a img{
+	max-height:30px;
+}
+.footer-links a {
+	margin-right: 10px;
+	margin-top: 5px;
+	color: #aaa;
+}
+.footer-links a:hover{
+	text-decoration:none;
+	color: #e4e4e4;
+}
+
+.footer-container {
+  margin: 15px 0 0;
+}
+
+footer .text-muted {
+	color:#CCC;
+}
+/* FIM PERSONALIZAÇÂO DO FOOTER */

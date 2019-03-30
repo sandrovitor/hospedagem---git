@@ -1,0 +1,202 @@
+/* 
+ * MODIFICADOR DO BOOTSTRAP 
+ *
+ * https://work.smarchal.com/twbscolor/?bd=e74c3c&bh=c0392b&cd=ecf0f1&ch=ffbbbc
+ *
+ */
+ 
+.navbar-default {
+  background-color: #e48515;
+  border-color: #b46b14;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff6c9;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff6c9;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff6c9;
+  background-color: #b46b14;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fff6c9;
+  background-color: #b46b14;
+}
+.navbar-default .navbar-toggle {
+  border-color: #b46b14;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #b46b14;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #fff6c9;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff6c9;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff6c9;
+    background-color: #b46b14;
+  }
+}
+
+/* ####################################
+FIM DO MODIFICADOR DO BOOTSTRAP
+#################################### */
+
+body {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-family: 'Work Sans', sans-serif;
+	letter-spacing:-0.5px;
+	font-size: 16px;
+}
+a {
+	cursor: pointer;
+}
+
+.red {
+	color:#f00;
+}
+#formulario_div {
+	border: 2px solid #666;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding: 5px 10px;
+}
+
+
+#overlay {
+	z-index:1100;
+	position: fixed;
+	margin:0;
+	left:0;
+	top: 0;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.loader1 {
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	top:50%;
+	left:50%;
+	margin-top: -40px;
+	margin-left: -40px;
+	border: 5px #fff solid;
+	border-top-color: #b46b14;
+	border-radius: 50%;
+	animation: spin 2s linear infinite;
+	
+}
+.loader-icon {
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	top:50%;
+	left:50%;
+	margin-top: -24px;
+	margin-left: -20px;
+	color: #b5b5b5;
+	font-size: 40px;
+	animation: cor 3s linear infinite;
+}
+
+@-webkit-keyframes cor {
+   0% { color: #b46b14;  }
+  33% { color: #527333; }
+  67% { color: #305876; }
+  100% { color: #b46b14; }
+}
+
+@keyframes cor {
+  0% { color: #b46b14;  }
+  33% { color: #527333; }
+  67% { color: #305876; }
+  100% { color: #b46b14; }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* #################################### 
+PERSONALIZAÇÂO DO FOOTER
+#################################### */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 35px;
+  background-color: #e4a151;
+  border-top: 3px solid #d28c3a;
+}
+.footer-links {
+	padding-bottom: 5px;
+}
+.footer-links img, .footer-links a img{
+	max-height:30px;
+}
+.footer-links a {
+	margin-right: 10px;
+	margin-top: 5px;
+	color: #aaa;
+}
+.footer-links a:hover{
+	text-decoration:none;
+	color: #e4e4e4;
+}
+
+.footer-container {
+  margin: 5px 0 0;
+}
+
+footer .text-muted {
+	color:#CCC;
+}
+/* ####################################
+FIM PERSONALIZAÇÂO DO FOOTER
+#################################### */
